@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    .header{
+        background: lightgray;
+    }
+    ul {
+        list-style-type: none; /* Убираем маркеры */
+        padding: 10px; /* Отступы */
+        margin: 0px;
+        text-align: center;
+
+    }
+    li {
+        display: inline; /* Делаем элементы списка строчными */
+        margin-right: 70px; /* Добавляем отступ между элементами */
+        text-underline-position:initial;
+    }
+    h1 {
+        margin-left: 90px;
+        margin-top: -47px;
+        font-size: 45px;
+    }
+    h2 {
+        margin-left: 90px;
+        margin-top: -40px;
+        font-size: 72px;
+    }
+   
+}
