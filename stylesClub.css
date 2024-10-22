@@ -3,21 +3,21 @@ body {
     padding: 0px;
 }
 
-    .header{
+    #header{
         background: lightgray;
-        height: 1000px;
+        height: 95px;
+        padding: 1px;
     }
     ul {
         list-style-type: none; /* Убираем маркеры */
-        padding: 10px; /* Отступы */
-        margin: 0px;
-        text-align: center;
-
+        padding: 7px; /* Отступы */
+        margin-left: 600px;
+        font-size: 25px;
     }
     li {
         display: inline; /* Делаем элементы списка строчными */
-        margin-right: 70px; /* Добавляем отступ между элементами */
-        text-underline-position:initial;
+        margin-right: 100px; /* Добавляем отступ между элементами */
+
     }
     h1 {
         margin-left: 90px;
@@ -29,19 +29,17 @@ body {
         margin-top: -87px;
         font-size: 72px;
     }
-   img {
-    margin-top: 0px;
-   }
-   .logo img{
-        width: 80px;
-        height: 80px;
-        display: inline-block;
-   }
-   .logo h1{
-    display: inline-block;
-    vertical-align: top;
-    
-   }
    .logo{
-    width: 200px;
+    margin-top: -93px;
+    margin-left: 180px;
    }
+   .naz h1{
+    margin-left: 300px;
+    margin-bottom: 190px;
+    margin-top: -110px;
+   }
+   .naz h1{
+    margin-left: 300px;
+    padding-bottom:-100px;
+   }
+   
