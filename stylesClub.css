@@ -1,9 +1,11 @@
 body {
     margin: 0px;
     padding: 0px;
+}
 
     .header{
         background: lightgray;
+        height: 1000px;
     }
     ul {
         list-style-type: none; /* Убираем маркеры */
@@ -19,13 +21,27 @@ body {
     }
     h1 {
         margin-left: 90px;
-        margin-top: -47px;
+        margin-top: -97px;
         font-size: 45px;
     }
     h2 {
         margin-left: 90px;
-        margin-top: -40px;
+        margin-top: -87px;
         font-size: 72px;
     }
-   
-}
+   img {
+    margin-top: 0px;
+   }
+   .logo img{
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+   }
+   .logo h1{
+    display: inline-block;
+    vertical-align: top;
+    
+   }
+   .logo{
+    width: 200px;
+   }
