@@ -21,8 +21,8 @@ body {
     
     }
     .header img{
-    margin-top: 7px;
-    width: 4%;
+    margin-top: 5px;
+    width: 73px;
     }
     .header p {
     font-size: 35px;
@@ -30,20 +30,20 @@ body {
     }
     .header a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     }
     .header a:hover{
     text-decoration: underline;
     }
     .naz h1{
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 33px;
     margin-left: 10px
     }
     .naz h2{
     font-size: 47px;
     margin-left: 10px;
-    margin-top: 1px;
+    margin-top: -35px;
     }
     .naz{
     margin-left: 8px;
@@ -61,12 +61,12 @@ body {
     .price ul{
     text-align: start;
     }
-    .section {
+    .section1 {
+    background-image: url(images2/1.jpg);
     height: 100vh; /* Высота каждой секции равна высоте окна браузера */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    background-color: rgb(255, 255, 255); /* Цвет фона для визуализации */
-    opacity: 0;
+    background-color: rgb(114, 76, 76); /* Цвет фона для визуализации */
     }
