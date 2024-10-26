@@ -1,45 +1,73 @@
 body {
     margin: 0px;
     padding: 0px;
-}
-
-    #header{
-        background: lightgray;
-        height: 95px;
-        padding: 1px;
+    background-image: url("images2/1.webp");
+    background-size: 1950px;
     }
-    ul {
-        list-style-type: none; /* Убираем маркеры */
-        padding: 7px; /* Отступы */
-        margin-left: 600px;
-        font-size: 25px;
+    .header{
+    background-color: rgb(255, 255, 255);
+    display: flex; justify-content: center; align-items: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
     }
-    li {
-        display: inline; /* Делаем элементы списка строчными */
-        margin-right: 100px; /* Добавляем отступ между элементами */
-
+    .header ul {
+    list-style-type: none; /* Убираем маркеры */
+    margin-left: 200px;
+    font-size: 25px;
+    text-align: center;
     }
-    h1 {
-        margin-left: 90px;
-        margin-top: -97px;
-        font-size: 45px;
+    .header li{
+    display: inline; /* Делаем элементы списка строчными */
+    margin-right: 100px; /* Добавляем отступ между элементами */
+    
     }
-    h2 {
-        margin-left: 90px;
-        margin-top: -87px;
-        font-size: 72px;
+    .header img{
+    margin-top: 7px;
+    width: 70px;
     }
-   .logo{
-    margin-top: -93px;
-    margin-left: 180px;
-   }
-   .naz h1{
-    margin-left: 300px;
-    margin-bottom: 190px;
-    margin-top: -110px;
-   }
-   .naz h1{
-    margin-left: 300px;
-    padding-bottom:-100px;
-   }
-   
+    .header p {
+    font-size: 35px;
+    margin-left: 10px;
+    }
+    .header a{
+    text-decoration: none;
+    color: black;
+    }
+    .header a:hover{
+    text-decoration: underline;
+    }
+    .naz h1{
+    font-size: 30px;
+    margin-left: 10px
+    }
+    .naz h2{
+    font-size: 47px;
+    line-height: 10px;
+    margin-left: 10px;
+    }
+    .naz{
+    margin-left: 8px;
+    margin-bottom: 20px;
+    }
+    .price{
+    margin-top: 52px;
+    background: rgb(207, 204, 204);
+    opacity: 1;
+    margin-left: 1200px;
+    border-radius: 25px;
+    text-align: center;
+    width: 500px;
+    }
+    .price ul{
+    text-align: start;
+    }
+    .section {
+    height: 100vh; /* Высота каждой секции равна высоте окна браузера */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: rgb(255, 255, 255); /* Цвет фона для визуализации */
+    opacity: 0;
+    }
