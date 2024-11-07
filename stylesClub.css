@@ -1,9 +1,10 @@
 body {
     margin: 0px;
     padding: 0px;
+
     }
     .header{
-    background-color: rgb(255, 20, 255);
+    background-color: lightgray;
     display: flex; justify-content: center; align-items: center;
     height: 90px;
     position: fixed;
@@ -24,7 +25,7 @@ body {
     margin-top: 5px;
     width: 73px;
     }
-    .header p {
+    .header p{
     font-size: 35px;
     margin-left: 10px;
     }
@@ -49,7 +50,7 @@ body {
     margin-left: 8px;
     margin-bottom: 20px;
     }
-    .price{
+    .abon{
     margin-top: 52px;
     background-color: aqua;
     opacity: 1;
@@ -58,17 +59,19 @@ body {
     text-align: center;
     width: 500px;
     }
-    .price ul{
+    .abon ul{
     text-align: start;
     }
     .section1 {
-    background-image: url(images2/1.jpg);
     height: 100vh; /* Высота каждой секции равна высоте окна браузера */
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2em;
-    background-color: rgb(114, 76, 76); /* Цвет фона для визуализации */
-    background-repeat:no-repeat;
+    background-color: rgb(7, 7, 7); /* Цвет фона для визуализации */
+    background-image: url("images2/2.webp");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+
     }
