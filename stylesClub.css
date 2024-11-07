@@ -1,77 +1,96 @@
 body {
-    margin: 0px;
-    padding: 0px;
-
+        margin: 0px;
+        padding: 0px;
     }
     .header{
-    background-color: lightgray;
-    display: flex; justify-content: center; align-items: center;
-    height: 90px;
-    position: fixed;
-    width: 100%;
-    }
-    .header ul {
-    list-style-type: none; /* Убираем маркеры */
-    margin-left: 200px;
-    font-size: 25px;
-    text-align: center;
-    }
-    .header li{
-    display: inline; /* Делаем элементы списка строчными */
-    margin-right: 100px; /* Добавляем отступ между элементами */
-    
+        background-color: lightgray;
+        display: flex; justify-content: center; align-items: center;
+        height: 90px;
+        position: fixed;
+        width: 100%;
     }
     .header img{
-    margin-top: 5px;
-    width: 73px;
+        margin-top: 5px;
+        width: 73px;
     }
-    .header p{
-    font-size: 35px;
-    margin-left: 10px;
+    .menu {
+        list-style: none;
+        display: flex;
+        margin: 150px;
     }
-    .header a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+    
+    .menu li {
+        margin: 30px;
+        position: relative;
+        list-style-type: none; /* Убираем маркеры */
+        margin-left: 20px;
+        font-size: 25px;
+        text-align: center;
     }
-    .header a:hover{
-    text-decoration: underline;
+    
+    .menu a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        transition: color 0.3s ease; /* Плавный переход цвета текста */
+    }
+    
+    .underline {
+        position: absolute;
+        height: 2px;
+        background: rgb(170, 26, 86); /* Цвет нижней полосы */
+        width: 0;
+        bottom: 0;
+        left: 0;
+        transition: width 0.3s ease; /* Анимация ширины */
+    }
+    
+    .menu li:hover .underline {
+        width: 100%; /* Полоса растягивается на всю ширину элемента при наведении */
+    }
+    
+    .menu li:hover a {
+        color: blue; /* Изменение цвета текста при наведении */
     }
     .naz h1{
-    margin-top: 60px;
-    font-size: 33px;
-    margin-left: 10px
+        margin-top: 60px;
+        font-size: 33px;
+        margin-left: 10px
     }
     .naz h2{
-    font-size: 47px;
-    margin-left: 10px;
-    margin-top: -35px;
+        font-size: 47px;
+        margin-left: 10px;
+        margin-top: -35px;
     }
     .naz{
-    margin-left: 8px;
-    margin-bottom: 20px;
+        margin-left: 8px;
+        margin-bottom: 20px;
     }
-    .abon{
-    margin-top: 52px;
-    background-color: aqua;
-    opacity: 1;
-    margin-left: 1200px;
-    border-radius: 25px;
-    text-align: center;
-    width: 500px;
+    .price{
+        margin-top: 52px;
+        background-color: aliceblue;
+        margin-left: 1200px;
+        border-radius: 25px;
+        text-align: center;
+        width: 500px;
+        position: absolute; /* Позволяет позиционировать элемент относительно родителя */
+        top: 200px; /* Расположение сверху */
+        left: 400px; /* Центрирование по горизонтали */
+        transform: translateX(-50%); /* Центрирование по горизонтали */
+        padding: 20px; /* Отступы вокруг текста */
+        border-radius: 10px; /* Закругленные углы */
+        text-align: center; /* Центрирование текста */
     }
-    .abon ul{
-    text-align: start;
+    .price ul{
+        text-align: start;
     }
     .section1 {
-    height: 100vh; /* Высота каждой секции равна высоте окна браузера */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
-    background-color: rgb(7, 7, 7); /* Цвет фона для визуализации */
-    background-image: url("images2/2.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+        height: 100vh; /* Высота каждой секции равна высоте окна браузера */
+        align-items: center;
+        width: 100%;
+    }
+    .full-width-image {
+        width: 100%; /* Задает ширину изображения 100% от родительского контейнера */
+        height: 90%; /* Сохраняет пропорции изображения */
+        margin-top: 90px;
     }
